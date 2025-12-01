@@ -1,0 +1,58 @@
+const projects = [
+  {
+    id: 1,
+    title: "E-Commerce Platform",
+    shortDescription: "A full-stack e-commerce application with product listings, cart, and checkout.",
+    description: "Built a complete e-commerce platform using React, Node.js, and MongoDB. Features include product filtering, user authentication, shopping cart, and payment integration.",
+    tech: ["React", "Node.js", "MongoDB", "Stripe"],
+    github: "https://github.com",
+    live: "https://example.com",
+  },
+  {
+    id: 2,
+    title: "Task Management App",
+    shortDescription: "A collaborative task management tool with real-time updates.",
+    description: "Developed a task management application with features like task creation, assignment, priority levels, and real-time collaboration using WebSockets.",
+    tech: ["React", "Express", "Socket.io", "MongoDB"],
+    github: "https://github.com",
+    live: "https://example.com",
+  },
+  {
+    id: 3,
+    title: "Weather Dashboard",
+    shortDescription: "A responsive weather app with real-time data and forecasts.",
+    description: "Created a weather dashboard that displays real-time weather data, forecasts, and location-based information using OpenWeather API.",
+    tech: ["React", "API Integration", "MUI", "Geolocation"],
+    github: "https://github.com",
+    live: "https://example.com",
+  },
+  {
+    id: 4,
+    title: "Social Media Feed",
+    shortDescription: "A social media feed with posts, comments, and likes functionality.",
+    description: "Built a social media feed application with user authentication, post creation, commenting, and like functionality.",
+    tech: ["React", "Firebase", "Tailwind CSS"],
+    github: "https://github.com",
+    live: "https://example.com",
+  },
+  {
+    id: 5,
+    title: "Portfolio Website",
+    shortDescription: "A modern portfolio showcase website.",
+    description: "Designed and developed a responsive portfolio website showcasing skills, projects, and contact information.",
+    tech: ["React", "MUI", "React Router"],
+    github: "https://github.com",
+    live: "https://example.com",
+  },
+  {
+    id: 6,
+    title: "Blog Platform",
+    shortDescription: "A blogging platform with markdown support and categories.",
+    description: "Created a blogging platform with markdown editor, categories, tags, and comment functionality.",
+    tech: ["React", "Express", "PostgreSQL", "Markdown"],
+    github: "https://github.com",
+    live: "https://example.com",
+  },
+];
+
+export default projects;
